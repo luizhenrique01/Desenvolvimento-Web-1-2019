@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caixa Eletronico</title>
+    <!--Importar bototstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--importar javascript-->
+    <script src="ja/bootstrap.min.ja"></script>
+
+</head>
+
+<!--dividir 3 colunas-->
+<div class = "row">
+    <div class = "col-md-4"></div>
+    <div class ="col-md-4" >
+        <h3>Caixas Eletronicos Lhuizito</h3>
+        <form action="saque.php" method="post">
+
+            <label>Banco</label>
+            <select name="tipo" class = "form-control">
+                <option value="Itau">Itau</option>
+                <option value="Bradesco">Bradesco</option>
+                <option value="BancoDoBrasil">Banco do Brasil</option>
+                <option value="Bmg">BMG</option>
+                <option value="Santander">Santander</option>
+                <option value="CaixaEconomica">Caixa Economica Federal</option>
+            </select><br><br>
+
+            <label>Agencia</label>
+            <input type="text" name="agencia" placeholder="Ex: 2161" class = "form-control" required><br><br>
+
+            <label>Conta</label>
+            <input type="text" name="conta" placeholder="Ex: 219022-67" class = "form-control" required><br><br>
+
+            <label>Senha</label>
+            <input type="password" name="senha" class = "form-control" required ><br><br>
+
+            <label>Quantidade Saque</label>
+            <input type="number" name="saque" placeholder="Ex: 100.00" class = "form-control" required><br><br>
+
+
+
+            <input type="submit" class = "btn btn-outline-success" value="Sacar">
+
+            <input type="reset"  class = "btn btn-outline-danger" value="Limpar">
+
+        </form>
+
+
+        <body>
+
+
+
+        </body>
+</html>

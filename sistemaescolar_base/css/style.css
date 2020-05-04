@@ -1,0 +1,35 @@
+.tudo{
+  background-color: #6f42c1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.login{
+
+    background-color:#a71d2a;
+    height: auto    ;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container{
+
+    color: #6c757d;
+}
+
+.lista {
+    background-color: yellow;
+
+}
+
+.container{
+    position: relative;
+    top:20px;
+    padding: 30px;
+}

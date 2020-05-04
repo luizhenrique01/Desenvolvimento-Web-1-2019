@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Escolar 1.0</title>
+            <!--Importar bototstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--importar javascript-->
+    <script src="ja/bootstrap.min.ja"></script>
+
+</head>
+
+<!--dividir 3 colunas-->
+<div class = "row">
+    <div class = "col-md-4"></div>
+     <div class ="col-md-4" >
+         <h3>Faça o login..</h3>
+         <form action="validalogin.php" method="post">
+
+             <label>Email/usuario</label>
+             <input type="text" name="usuario" placeholder="Ex:21902267" class = "form-control" required><br><br>
+
+             <label>Senha</label>
+             <input type="password" name="senha" class = "form-control" required ><br><br>
+
+             <label>Tipo</label>
+             <select name="tipo" class = "form-control">
+                 <option value="A">Aluno</option>
+                 <option value="P">Professor</option>
+                 <option value="F">Funcionário</option>
+             </select><br><br>
+
+             <input type="submit" class = "btn btn-outline-success" value="Entrar">
+
+             <input type="reset"  class = "btn btn-outline-danger" value="Limpar">
+
+         </form>
+
+
+<body>
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <!--Importar bototstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--importar javascript-->
+    <script src="ja/bootstrap.min.ja"></script>
+
+</head>
+
+<!--dividir 3 colunas-->
+<div class = "row">
+    <div class = "col-md-4"></div>
+    <div class ="col-md-4" >
+        <h3>Cadastro Vendas</h3>
+        <form action="CadastrarEmpregados.php" method="post">
+
+            <label>Codigo</label>
+            <input type="number" name="codigo" placeholder="Ex: 21902267" class = "form-control" required><br><br>
+
+            <label>Nome</label>
+            <input type="text" name="nome" class = "form-control" required ><br><br>
+
+            <label>Endereço</label>
+            <input type="text" name="endereco" class = "form-control" required ><br><br>
+
+            <label>Telefone</label>
+            <input type="number" name="telefone" class = "form-control" required ><br><br>
+
+            <label>Cidade</label>
+            <input type="text" name="cidade" class = "form-control" required ><br><br>
+
+            <label>Estado</label>
+            <input type="text" name="estado" class = "form-control" required ><br><br>
+
+            <label>E-mail</label>
+            <input type="email" name="email" class = "form-control" required ><br><br>
+
+            <label>Codigo Loja</label>
+            <input type="number" name="codigoloja" class = "form-control" required ><br><br>
+
+            <input type="submit" class = "btn btn-outline-success" value="Confirmar">
+
+            <input type="reset"  class = "btn btn-outline-danger" value="Limpar">
+
+        </form>
+
+
+        <body>
